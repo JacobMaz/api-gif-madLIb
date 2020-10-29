@@ -11,6 +11,7 @@ const searchPhrase = document.getElementById("searchPhrase");
 const searchForm = document.querySelector("form");
 const submitBtn = document.querySelector(".submit");
 
+
 // const nextBtn = document.querySelector(".next");
 // const previousBtn = document.querySelector(".prev");
 const nav = document.querySelector("nav");
@@ -26,6 +27,7 @@ function fetchResults(e) {
     urlCreature = `${baseURL}?api_key=${key}&q=${searchCreature.value}&limit=1&offset=1&rating=g&lang=en`;
     urlPhrase = `${baseURL}?api_key=${key}&q=${searchPhrase.value}&limit=1&offset=1&rating=g&lang=en`;
     // console.log("URL: ", url)
+    document.getElementById("searchCreatureMadLib").textContent = ` ${searchCreature.value.toUpperCase()}`;
 
     fetch(urlCreature)
         .then(function (resultCreature) {
