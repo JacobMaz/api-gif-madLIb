@@ -1,7 +1,7 @@
 
 // http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=YOUR_API_KEY&limit=5
 
-const baseURL = "http://api.giphy.com/v1/gifs/search";
+const baseURL = "https://api.giphy.com/v1/gifs/search";
 const key = "L5aDAhnVbYiBwINtZyymGbvtt0lNBMBK";
 let urlCreature;
 let urlPhrase;
