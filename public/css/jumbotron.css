@@ -1,22 +1,35 @@
 .jumbotron {
 background-color: transparent;
-color: white;
-border-bottom: 5px dashed rgb(32, 67, 255);
+color: rgb(3, 234, 255);
+border-bottom: 5px dashed rgb(252, 238, 78);
 }
 
 .display-4 {
-    text-shadow: 2px 0px rgb(3, 234, 255), 0px 2px rgb(3, 234, 255), -2px 0px rgb(3, 234, 255), 0px -2px rgb(3, 234, 255);
+    font-size: 7em;
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    text-shadow: 0px 5px rgb(3, 234, 255), -5px 0px rgb(69, 228, 69), 7px 0px rgb(91, 34, 148), 0px -6px rgb(252, 238, 78), 7px -7px rgb(211, 74, 74);
 }
 
 .my-4 {
-    background-color: rgb(32, 67, 255);
+    background-color: rgb(252, 238, 78);
 }
 
 #randomGifContainer {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+#randomGifBtn {
+    background-color: rgb(91, 34, 148);
+    color: rgb(3, 234, 255);
+    border-top: 3px solid rgb(252, 238, 78);
+    border-right: 3px solid rgb(211, 74, 74);
+    border-bottom: 3px solid rgb(3, 234, 255);
+    border-left: 3px solid rgb(69, 228, 69);
 }
 
 #randomGif {
-    border: 2px solid rgb(3, 234, 255);
+    border: 2px solid rgb(91, 34, 148);
 }
