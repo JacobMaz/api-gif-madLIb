@@ -1,3 +1,5 @@
-@import "madLib.css";
+@import "madLibSection.css";
+@import "madLibSearch.css";
 @import "body.css";
 @import "jumbotron.css";
+@import "footer.css";

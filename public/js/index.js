@@ -41,7 +41,8 @@ function fetchResults(e) {
     urlCreature = `${baseURL}?api_key=${key}&q=${searchCreature.value}&limit=1&offset=1&rating=g&lang=en`;
     urlPhrase = `${baseURL}?api_key=${key}&q=${searchPhrase.value}&limit=1&offset=1&rating=g&lang=en`;
     urlVerb = `${baseURL}?api_key=${key}&q=${searchVerb.value}&limit=1&offset=1&rating=g&lang=en`;
-    document.getElementById("searchCreatureText").textContent = ` ${searchCreature.value.toUpperCase()}`;
+    document.getElementById("searchCreatureText").textContent = ` ${searchCreature.value.toUpperCase()}!`;
+    document.getElementById("searchPhraseText").textContent = ` ${searchPhrase.value.toUpperCase()}!`;
     document.getElementById("searchVerbText").textContent = ` ${searchVerb.value.toUpperCase()}!`;
 
     fetch(urlCreature)

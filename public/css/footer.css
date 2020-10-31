@@ -1,0 +1,24 @@
+.footer {
+    background-color: black;
+    border-top: 2px solid rgb(252, 238, 78);
+    border-right: 2px solid rgb(91, 34, 148);
+    border-left: 2px solid rgb(69, 228, 69);
+    border-bottom: 2px solid rgb(3, 234, 255);
+    position: fixed;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    padding-right: 0.5em;
+}
+
+.footerText {
+    color: rgb(211, 74, 74);
+    font-size: 12px;
+}
+
+.giphyIcon {
+    height: 1em;
+}
